@@ -1,4 +1,4 @@
-site_name: BADD Labs
+site_name: EthSec detector
 
 #markdown_extensions:
 #  - pymdownx.arithmatex:
@@ -11,14 +11,6 @@ extra_javascript:
 
 pages:
 - Home: 'index.md'
-- Labs: 
-    - 'Lab A1. Transaction exploration': 'labs/A1/README.md'
-    - 'Lab A2. Smart-contract programming': 'labs/A2/README.md'
-    - 'Lab A3. Blockchain mining': 'labs/A3/README.md'
-    - 'Lab B1. DEX 1: Swap settlement': 'labs/B1/README.md'
-    - 'Lab B2. DEX 2: AMM and pricing': 'labs/B2/README.md'
-    - 'Lab B3. DEX security: Arbitrage': 'labs/B3/README.md'
-    - 'Lab B4. DEX security: Sandwich': 'labs/B4/README.md'
 - About: 'about.md'
 
 #theme: readthedocs

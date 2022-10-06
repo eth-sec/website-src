@@ -1,9 +1,6 @@
-all:u
+all:
+	git commit -am 'updates'; git push
 	mkdocs build
-	cp -r ./site/* ../blockchainlabsu.github.io/
-	cd ../blockchainlabsu.github.io/; make
-
-u:
-	cp -r ~/workspace/Courses/badd-labs/badd-labs/labs ./docs/
-	#cp ~/workspace/Courses/badd-labs/badd-labs/README.md ./docs/index.md
+	cp -r ./site/* ../eth-sec.github.io/
+	cd ../eth-sec.github.io/; git add -A; git commit -am 'updates'; git push
 
